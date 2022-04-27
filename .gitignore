@@ -1,0 +1,4 @@
+# Project exclude paths
+/uicoder-dependencies/target/
+/uicoder-framework/uicoder-common/target/
+/uicoder-framework/uicoder-spring-boot-starter-excel/target/

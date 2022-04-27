@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.salk</groupId>
+    <artifactId>uicoder</artifactId>
+    <version>${version}</version>
+    <packaging>pom</packaging>
+    <properties>
+        <version>1.1-SNAPSHOT</version>
+    </properties>
+    <modules>
+        <module>uicoder-framework</module>
+        <module>uicoder-dependencies</module>
+        <module>uicoder-module-system</module>
+        <module>uicoder-module-pay</module>
+        <module>uicoder-module-bpm</module>
+    </modules>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>qy-maven-snapshots</id>
+            <url>http://mvn.qpaas.com:2233/repository/qy-maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>qy-maven-releases</id>
+            <url>http://mvn.qpaas.com:2233/repository/qy-maven-releases/</url>
+        </repository>
+    </distributionManagement>
+    <!-- 远程仓库地址 begin -->
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+        <repository>
+            <id>qy-maven-public</id>
+            <url>http://mvn.qpaas.com:2233/repository/qy-maven-public/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>qy-maven-public</id>
+            <url>http://mvn.qpaas.com:2233/repository/qy-maven-public/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

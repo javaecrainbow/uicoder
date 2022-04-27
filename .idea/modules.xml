@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/uicoder-module-bpm/uicoder-module-bpm.iml" filepath="$PROJECT_DIR$/uicoder-module-bpm/uicoder-module-bpm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uicoder-module-pay/uicoder-module-pay.iml" filepath="$PROJECT_DIR$/uicoder-module-pay/uicoder-module-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uicoder-module-system/uicoder-module-system.iml" filepath="$PROJECT_DIR$/uicoder-module-system/uicoder-module-system.iml" />
+    </modules>
+  </component>
+</project>
