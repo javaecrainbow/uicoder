@@ -2,3 +2,9 @@
 /uicoder-dependencies/target/
 /uicoder-framework/uicoder-common/target/
 /uicoder-framework/uicoder-spring-boot-starter-excel/target/
+/uicoder-server/target/
+/uicoder-framework/uicoder-persist/target/
+/uicoder-module-system/target/
+/uicoder-module-bpm/target/
+/uicoder-module-pay/target/
+/uicoder-app/target/
