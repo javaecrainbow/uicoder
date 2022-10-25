@@ -14,6 +14,7 @@
     <modules>
         <module>uicoder-common</module>
         <module>uicoder-spring-boot-starter-excel</module>
+        <module>uicoder-persist</module>
     </modules>
 
 
