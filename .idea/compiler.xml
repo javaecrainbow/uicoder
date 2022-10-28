@@ -12,12 +12,22 @@
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile name="Annotation profile for uicoder" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="uicoder-dependencies" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.1.Final/mapstruct-processor-1.4.1.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.1.Final/mapstruct-1.4.1.Final.jar" />
+        </processorPath>
+        <module name="uicoder-persist" />
+        <module name="uicoder-module-pay" />
         <module name="uicoder-spring-boot-starter-excel" />
+        <module name="uicoder-module-system" />
+        <module name="uicoder-server" />
+        <module name="uicoder-app" />
+        <module name="uicoder-module-bpm" />
         <module name="uicoder-common" />
       </profile>
     </annotationProcessing>
