@@ -11,6 +11,6 @@ import java.util.Map;
  **/
 public interface TableMapper extends BaseMapper<TableInfo> {
 
-    int insert(Map<String,Object> value);
+    int insertMap(Map<String,Object> value);
 
 }

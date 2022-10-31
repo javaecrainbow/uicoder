@@ -14,9 +14,21 @@ import java.util.List;
  */
 @Data
 public class TableInfo {
+    /**
+     * 表id
+     */
     private String tableId;
+    /**
+     * 表名
+     */
     private String tableName;
+    /**
+     * 类型
+     */
     private String type;
+    /**
+     * 字段信息
+     */
     private List<FieldInfo> fieldInfos=new ArrayList();
 
 }
